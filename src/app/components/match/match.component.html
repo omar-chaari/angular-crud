@@ -1,0 +1,10 @@
+    <td>{{match.id}}</td>
+    <td><strong class="text-white">{{match.scoreOne}}</strong></td>
+    <td>{{match.scoreTwo}}</td>
+    <td>{{match.teamOne}}</td>
+    <td>{{match.teamTwo}}</td>
+    <td>
+        <button class="btn btn-success" (click)='displayMatch(match.id)'>Display</button>
+        <button class="btn btn-warning">Edit</button>
+        <button class="btn btn-danger" (click)='deleteMatch(match.id)'>Delete</button>
+    </td>
