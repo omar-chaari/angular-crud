@@ -10,7 +10,7 @@ https://github.com/omar-chaari/angular-crud.git
 ```
 - Open up Command Prompt(CMD) or Terminal in the project directory and run these commands:
 ```
-nmp install
+npm install
 ```
 - Launch web server
 ```
